@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header .shopIcon {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 16px;
+
+    border-radius: 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 16px;
+
+    background-color: #111111;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.card .characteristics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card .characteristics h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card .characteristics h2 span {
+    color: #FEBE01;
+}
+
+.card .characteristics p {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .characteristics p span{
+    color: #FEBE01;
+}
+
+.card .characteristics button {
+    background-color: #FEBE01;
+    color: #111111;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+body {
+    margin-bottom: 32px;
+}
